@@ -26,7 +26,7 @@ export default function Hero() {
         <div className="md:flex-row-reverse flex flex-col items-center max-w-screen-xl px-4 mx-auto  sm:px-6 p-8">
         <div className="flex items-center py-5 md:w-1/2 md:pb-20 md:pt-10 md:pl-10">
     <div className=" w-full p-3 rounded  md:p-8">
-        <Image src={heroImage} />
+        <Image src={heroImage} alt="Photo" />
     </div>
   </div>
   <div className="flex items-center py-5 md:w-1/2 md:pb-20 md:pt-10 md:pr-10">

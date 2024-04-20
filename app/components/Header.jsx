@@ -1,4 +1,4 @@
-import MobileBar from "./mobile-bar"
+import MobileBar from "./Mobile-bar"
 import Image from "next/image";
 import logo from "@/public/logo.png"
 import Link from "next/link";
@@ -36,7 +36,7 @@ export default function Header() {
           <ul className="font-medium flex p-0 rounded-lg  flex-row space-x-8  mt-0 border-0  border-gray-700 ">
             {links.map((link)=>(
 
-            <li>
+            <li key={link.name}>
               <Link
                 href={link.url}
                 className="tracking-[.25em] block  bg-transparent  px-3 text-black font-bold text-lg duration-300 ease-in-out hover:text-teal-300 hover:border-b border-double border-teal-300 "

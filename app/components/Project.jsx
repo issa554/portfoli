@@ -15,6 +15,7 @@ const  Portfolio = async () => {
             {projects.map((project)=>(
 
             <PortfolioCard
+            key={project._id}
               ImageHref={project.image}
               title={project.name}
               button={project.url}

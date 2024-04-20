@@ -62,7 +62,7 @@ export default function Hero() {
         {
           media.map((item)=>(
 
-        <Link href={item.url} className="text-3xl text-black hover:text-teal-700">
+        <Link key={item.url} href={item.url} className="text-3xl text-black hover:text-teal-700">
         {item.icon}
         
         </Link>

@@ -3,7 +3,7 @@ import { useState } from "react";
 import MenuIcon from "./icons/MenuIcon"
 import Link from "next/link";
 import Close from "./icons/Close"
-export default function mobileBar({links}) {
+export default function MobileBar({links}) {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     const toggleMenu = () => {
@@ -25,7 +25,7 @@ export default function mobileBar({links}) {
 
         <ul className="font-medium flex  flex-col space-y-5">
             {links.map((link)=>(
-               <li>
+               <li key={link.url}>
                <Link
                          onClick={toggleMenu}
 

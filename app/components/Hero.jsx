@@ -32,7 +32,7 @@ export default function Hero() {
   <div className="flex items-center py-5 md:w-1/2 md:pb-20 md:pt-10 md:pr-10">
     <div className="text-left">
       <h2 className="text-4xl font-extrabold leading-10 tracking-tight text-black sm:text-5xl sm:leading-none md:text-6xl">
-        Hello , I'm <span className="text-teal-700">Issa</span> 
+        Hello , Im <span className="text-teal-700">Issa</span> 
 
       </h2>
       <p className="max-w-md mx-auto mt-3 text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">

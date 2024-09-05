@@ -56,6 +56,12 @@ export default function Experience() {
                 <div className="ml-1 flex text-xl flex-row">
                 <MdVerifiedUser className="mt-1 mr-2 " />
                 <span >
+                    Spring Boot
+                    </span>
+                </div>
+                <div className="ml-1 flex text-xl flex-row">
+                <MdVerifiedUser className="mt-1 mr-2 " />
+                <span >
                     MySQL
                     </span>
                 </div>

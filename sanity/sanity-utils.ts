@@ -12,7 +12,7 @@ export async function getProjects() : Promise<Project[]>{
     })
 
     return client.fetch(
-        groq`*[_type == "project"]{
+        groq`*[_type == "project"] | order(_updatedAt desc) {
             _id,
             _createdAt,
             name,

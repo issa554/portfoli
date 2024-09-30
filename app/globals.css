@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.random-shape {
+    clip-path: polygon(70% 10%, 100% 30%, 80% 80%, 60% 90%, 40% 100%, 20% 80%, 0% 50%, 30% 10%);
+  }
+  
+  @keyframes custom-pulse {
+    0%, 100% {
+      opacity: 0.5; /* Minimum opacity */
+    }
+    50% {
+      opacity: 1; /* Maximum opacity */
+    }
+  }
+  
+  .custom-animate-pulse {
+    animation: custom-pulse 6s infinite; /* Customize duration here */
+  }
+  

@@ -8,7 +8,7 @@
   
   @keyframes custom-pulse {
     0%, 100% {
-      opacity: 0.5; /* Minimum opacity */
+      opacity: 0.35; /* Minimum opacity */
     }
     50% {
       opacity: 1; /* Maximum opacity */

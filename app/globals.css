@@ -16,6 +16,6 @@
   }
   
   .custom-animate-pulse {
-    animation: custom-pulse 6s infinite; /* Customize duration here */
+    animation: custom-pulse 4s infinite; /* Customize duration here */
   }
   
